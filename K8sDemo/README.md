@@ -1,0 +1,2 @@
+## Description
+Demo project for Kubernetes (K8s). It includes sample configurations for deploying a simple application on a local Kubernetes cluster using Minikube. The project demonstrates the use of Kubernetes manifests, services, and deployments.
