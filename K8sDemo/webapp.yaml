@@ -1,3 +1,4 @@
+# YAML file for the Deployment and Service templates for the webapp Pod
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -16,7 +17,7 @@ spec:
     spec:
       containers:
         - name: webapp
-          image: nanajanashia/k8s-demo-app:v1.0
+          image: nanajanashia/k8s-demo-app:v1.0 # Image pulled from DockerHub, you can also use your own image from a private registry
           ports:
           - containerPort: 3000
           env:
